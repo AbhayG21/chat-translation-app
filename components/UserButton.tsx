@@ -36,7 +36,7 @@ function UserButton({ session }: { session: Session |null}) {
                     {/* <DropdownMenuItem>Profile</DropdownMenuItem>
                     <DropdownMenuItem>Billing</DropdownMenuItem>
                     <DropdownMenuItem>Team</DropdownMenuItem> */}
-                    <DropdownMenuItem onClick={()=> signOut()}>Sign Out</DropdownMenuItem>
+                    <DropdownMenuItem onClick={()=> signOut()} className="text-red-400 cursor-pointer">Sign Out</DropdownMenuItem>
                 </DropdownMenuContent>
             </DropdownMenu>
         )
